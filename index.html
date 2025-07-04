@@ -10,6 +10,7 @@
     - primary meta tags
   -->
   <title>Shoham Mallick || Royal Scissors - Barbers & Hair Cutting</title>
+  <link rel="manifest" href="./manifest.json">
   <meta name="title" content="Royal Scissors - Barbers & Hair Cutting">
   <meta name="description" content="This is a barber html template made by Shoham Mallick">
 
@@ -1016,6 +1017,13 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./service-worker.js')
+    .then(reg => console.log('Service worker registered.', reg));
+  }
+</script>
 
 </body>
 
