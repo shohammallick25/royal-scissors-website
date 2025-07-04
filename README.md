@@ -1,6 +1,8 @@
 # Royal Scissors - Barber & Hair Salon Website
 
 Welcome to the official repository for **Royal Scissors**, a professional barber and hair salon website designed to showcase grooming services, pricing, gallery, and appointment booking features.
+![image](https://github.com/user-attachments/assets/114d1031-20c1-47ed-a348-80335aa1860c)
+
 
 ---
 
